@@ -65,10 +65,34 @@ header {
 section {
   min-height: 200px;
   background-color: #bbb;
+  padding: 1em .5em;
 }
 
 section:nth-child(even) {
   background-color: #ddd;
+}
+
+section p {
+  padding-top: 1em;
+}
+
+/* Landing Page */
+
+.landing_nav {
+  margin-top: 1em;
+  text-align:right;
+}
+
+.landing_nav a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  padding: 1em;
+}
+
+.landing_nav a:hover {
+  background-color: #ccc;
+  color: white;
 }
 
 /* MAP */
@@ -85,12 +109,13 @@ section:nth-child(even) {
 
 .dashboard {
   position: fixed;
-  top: 300px;
+  top: 285px;
   width: 100%;
 }
 
 .dashboard p {
   margin-top: 0;
+  padding-top: 0;
   margin-bottom: 15px;
 }
 
