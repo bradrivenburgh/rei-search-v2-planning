@@ -55,21 +55,36 @@ section:nth-child(even) {
 
 .map {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height:400px;
+  height:300px;
 }
 
 /* DASHBOARD */
+
+.dashboard {
+  position: fixed;
+  top: 300px;
+  width: 100%;
+}
+
+.dashboard p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
 
 .tabs {
   position: relative;   
   min-height: 200px; /* This part sucks */
   clear: both;
+  height: 100%;
 }
+
 .tab {
   float: left;
 }
+
 .tab label {
   background: #eee; 
   padding: 10px; 
@@ -78,9 +93,11 @@ section:nth-child(even) {
   position: relative;
   left: 1px; 
 }
+
 .tab [type=radio] {
   display: none;   
 }
+
 .content {
   position: absolute;
   top: 28px;
@@ -89,13 +106,15 @@ section:nth-child(even) {
   right: 0;
   bottom: 0;
   padding: 20px;
-  border: 1px solid #ccc; 
+  overflow-y: scroll;
 }
+
 [type=radio]:checked ~ label {
   background: white;
   border-bottom: 1px solid white;
   z-index: 2;
 }
+
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
 }
