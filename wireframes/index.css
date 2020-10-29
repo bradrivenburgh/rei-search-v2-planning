@@ -72,7 +72,7 @@ section:nth-child(even) {
   background-color: #ddd;
 }
 
-section p {
+section p, li {
   padding-top: 1em;
 }
 
