@@ -12,8 +12,21 @@
 
   <nav>
     <p>[Logo]</p>
-    <input placeholder="New York, NY">
-    <p>[Menu]</p>
+    <input placeholder="Philadelphia, PA">
+    
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="index.html">About</a>
+      <a href="#">Account</a>
+      <a href="#">Properties</a>
+      <a href="#">Contact</a>
+
+      <hr>
+      <a href="create-account.html">Create Account</a>
+      <a href="#">Sign-In / Sign-Out</a>
+    </div>
+    
+    <button class="openbtn" onclick="openNav()">☰</button>      
   </nav>
 
   <main>
@@ -324,6 +337,14 @@
     </section>
     
   </main>
-
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>    
 </body>
 </html>
