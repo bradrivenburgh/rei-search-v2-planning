@@ -304,3 +304,28 @@ only screen and (max-width: 760px),
   margin-top: 2em;
   margin-right: 1em;
 }
+
+/* Manage Account */
+
+.manage-account {
+  text-align: left;
+}
+
+.manage-account div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 1em;
+}
+
+.manage-account p {
+  padding: 0;
+  margin-top: .2em;
+  margin-right: 1em;
+}
+
+.manage-account div button {
+  width: 8em;
+  padding: .5em .2em
+}
