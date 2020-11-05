@@ -329,3 +329,12 @@ only screen and (max-width: 760px),
   width: 8em;
   padding: .5em .2em
 }
+
+/* Saved Properties */
+.saved-properties {
+  padding-top: .5em;
+}
+
+.saved-properties p, li {
+  padding-top: .5em;
+}
