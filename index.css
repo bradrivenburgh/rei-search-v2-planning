@@ -164,3 +164,9 @@ section p, li {
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
 }
+
+/* PROPERTY LIST */
+
+.properties li {
+  padding-top: 0em;
+}
