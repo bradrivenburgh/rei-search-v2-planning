@@ -57,12 +57,12 @@ nav input {
 /* SIDE PANEL MENU */
 
 .sidepanel  {
-  width: 0;
+  min-width: 250px;
   position: fixed;
   z-index: 50;
   height: 100%;
   top: 0;
-  right: 0;
+  right: -250px;
   background-color: #ddd;
   overflow-x: hidden;
   transition: 0.5s;
