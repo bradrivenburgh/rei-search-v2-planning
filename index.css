@@ -248,10 +248,12 @@ section p, li {
   min-width: 100%; 
   padding:0;
   margin-bottom: -10px;
+  background-color: #ddd;
 }
 
 .property-profile__carousel img {
-  min-width: 100%;
+  width: 100%;
+  max-width: 600px;
 }
 
 .property-profile__basic-stats {
